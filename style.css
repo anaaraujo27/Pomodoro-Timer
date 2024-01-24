@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #18181B;
+    
+}
+
+.NavBar {
+    display: flex;
+    gap: 32rem;
+}
+
+.header-NavBar {
+    padding: 2.5rem;
+}   
+
+h1 {
+    color: #E4E4E7;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.descricao-headerNavBar {
+    color: #A1A1AA;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.actions {
+    margin: 4rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.actions > button {
+    border: none;
+    padding: 12px; 
+    border-radius: 10px;
+    background-color: #27272A;
+}
+
+.titulo-cabecalho {
+    color: #A1A1AA;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    
+}
+
+.subtitulo-cabecalho {
+    color: #71717A;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.botao-cabecalho {
+    
+    border: none;
+    padding: 10px; 
+    border-radius: 10px;
+    background-color: #27272A;   
+}
+
+
+.titulo-div-card {
+    color: #A1A1AA;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.subtitulo-div-card {
+    color: #71717A;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.foco-card-container > button {
+    color: #84CC16;
+    border-color: #84CC16;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.proximoModo-card-container > button {
+    color: #06B6D4;
+    border-color: #06B6D4;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+hr {
+    border-color: #27272A;
+    width: 25rem;
+}
+
+.dados-da-secao {
+    border-radius: 1rem;
+    border-color: #27272A;
+}
