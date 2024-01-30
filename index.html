@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomodoro Timer</title>
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
@@ -27,34 +28,45 @@
 
         <section class="dados-da-secao">
             <section class="cabecalho">
+
                 <header class="header-cabecalho">
                     <h2 class="titulo-cabecalho">Dados da sessão</h2>
                     <p class="subtitulo-cabecalho">Acompanhe os próximos cíclos</p>
+                    <button class="botao-cabecalho">⏳</button>
                 </header>
 
-                <button class="botao-cabecalho">⏳</button>
-
                 <hr>
-
-            </section>
 
                 <div class="foco-card-container">
                     <h3 class="titulo-div-card">Modo atual</h3>
                     <p class="subtitulo-div-card">Cíclo atual do cronômetro</p>
-                    <button type="button"><img src="imagens/botao-foco.png"> Foco</button>
+                    <button type="button" class="buttonone"><img src="imagens/botao-foco.png"> Foco</button>
                 </div>
 
                 <div class="proximoModo-card-container">
                     <h3 class="titulo-div-card">Próximo modo:</h3>
-                    <p class="subtitulo-div-card">Qual cíclo será ativado</p>
-                    <button type="button">☕ Pausa Longa</button>
+                     <p class="subtitulo-div-card">Qual cíclo será ativado</p>
+                    <button type="button" class="buttontwo">☕ Pausa Longa</button>
                 </div>
 
+         
+                <div id="cronometro-teste">
+
+                    <h2 id="timer">00:00:00:00</h2>
+            
+                    <div id="actions">
+            
+                       
+                    </div>
+            
+                    <div id="marks-list"></div>
+            
+                </div>
+        
             
 
-            <section>
-
             </section>
+
         </section>
 
         <section class="lista-de-tarefas">
